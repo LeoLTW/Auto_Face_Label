@@ -15,7 +15,7 @@ from xml.dom import minidom
 
 
 
-datasetPath = "C:\\home\\jovyan\\Works\\Face_detection\\faceYolo_vide\\"
+datasetPath = "Face_detection\\faceYolo_vide\\"
 imgPath = "images\\"
 labelPath = "labels\\"
 removedPath = "notok\\"
