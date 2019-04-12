@@ -17,21 +17,21 @@ from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_a
 
 #--------------------------------------------------------------------
 folderCharacter = "\\"  # \\ is for windows
-xmlFolder = "C:\\home\\jovyan\\Works\\Face_detection\\faceYolo_vide\\labels"
-imgFolder = "C:\\home\\jovyan\\Works\\Face_detection\\faceYolo_vide\\images"
-saveYoloPath = "C:\\home\\jovyan\\Works\\Face_detection\\media\\sf_ShareFolder\\face"
-classList = { "1_pepper_Y_W":0,"5_pepper_M_C":1,"2_pepper_Y_C":2,"4_pepper_M_W":3,"7_pepper_M_P":4}
+xmlFolder = "Face_detection\\faceYolo_vide\\labels"
+imgFolder = "Face_detection\\faceYolo_vide\\images"
+saveYoloPath = "Face_detection\\media\\sf_ShareFolder\\face"
+classList = { "Face":0}
 
 modelYOLO = "yolov3-tiny"  #yolov3 or yolov3-tiny
 testRatio = 0.2#測試數據的比例
-cfgFolder = "C:\\home\\jovyan\\Works\\Face_detection\\cfg"
+cfgFolder = "Face_detection\\cfg"
 cfg_obj_names = "face.names"
 cfg_obj_data = "face.data"
-weightdir="C:\\home\\jovyan\\Works\\Face_detection\\cfg\\weights\\"
+weightdir="Face_detection\\cfg\\weights\\"
 
 numBatch = 24
 numSubdivision = 8
-darknetEcec = "D:\\darknet\\build\\darknet\\x64\\darknet.exe"
+darknetEcec = "darknet.exe"
 
 
 # In[13]:
