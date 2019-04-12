@@ -14,10 +14,10 @@ import numpy as np
 
 mediaType = "video"  # image \\ video \\ webcamera
 #imageFolder = ""
-videoFile = "C:\\home\\jovyan\\Works\\Face_detection\\media\\sf_VMshare\\facial_video\\facial_test.avi"
-videoOutFile = "C:\\home\\jovyan\\Works\\Face_detection\\VideoOut\\res.avi"
+videoFile = "where you put your video"
+videoOutFile = "where you want to put the result video"
 
-datasetPath = "C:\\home\\jovyan\\Works\\Face_detection\\faceYolo_vide\\"
+datasetPath = "where the output images"
 imgPath = "images\\"
 labelPath = "labels\\"
 imgType = "jpg"  # jpg, png
@@ -25,7 +25,7 @@ imgType = "jpg"  # jpg, png
 minFaceSize = (60, 60)
 maxImageWidth = 1200
 
-landmarksDB = "C:\\home\\jovyan\\Works\\Face_detection\\dlib_facial_feature\\shape_predictor_68_face_landmarks.dat"
+landmarksDB = "shape_predictor_68_face_landmarks.dat"
 dlib_detectorRatio = 2
 folderCharacter = "\\"  # \\ is for windows
 xml_file = "xml_file.txt"
